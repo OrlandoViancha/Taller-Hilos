@@ -1,4 +1,4 @@
-package co.edu.uptc.model;
+package co.edu.uptc.vista;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -10,6 +10,10 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JProgressBar;
 import javax.swing.JTextField;
+
+import co.edu.uptc.model.Hilo;
+import co.edu.uptc.model.Routes;
+import co.edu.uptc.model.Source;
 
 
 public class Vista extends JFrame {
