@@ -16,11 +16,6 @@ public class Hilo extends Thread {
         this.text = text;
         this.progress = bar;
     }
-
-  
-    
-    
-    
     
     @Override
     public void run()

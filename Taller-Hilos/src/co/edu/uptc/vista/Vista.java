@@ -69,6 +69,7 @@ public class Vista extends JFrame {
         buscar = new JButton();
         resultado = new JLabel();
         salida = new JLabel();
+        Destinos = new JLabel();
         setBounds(150, 150, 700, 850);
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -164,6 +165,11 @@ public class Vista extends JFrame {
         destino.setFont(new java.awt.Font("Dialog", 1, 16));
         destino.setBounds(350, 10, 180, 35);
         getContentPane().add(destino);
+        
+        Destinos.setText("RUTAS AEREAS : Bogota - Ecuador - Chile - Madrid - Paris - Lima");
+        Destinos.setFont(new java.awt.Font("Dialog", 1, 12));
+        Destinos.setBounds(150, 68, 380, 35);
+        getContentPane().add(Destinos);
         
         
     }
