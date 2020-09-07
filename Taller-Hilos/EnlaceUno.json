@@ -3,8 +3,8 @@
      "targets":[
         {
             "target":"Bogota",
-            "distance":9248,
-            "value":120000
+            "distance":1248,
+            "value":1200000
         },
         {
             "target":"Madrid",

@@ -13,8 +13,8 @@
         },
         {
             "target":"Lima",
-            "distance":1008,
-            "value":1000000
+            "distance":1750000,
+            "value":27000000
         }
      ]
 }

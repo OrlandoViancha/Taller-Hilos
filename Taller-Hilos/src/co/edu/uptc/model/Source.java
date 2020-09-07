@@ -42,7 +42,7 @@ public class Source {
         return "source{" + "source=" + source + ", targets=" + targets + '}';
     }
     
-    public Source read_souce (String json_source)
+    public Source leer (String json_source)
     {
         String json = "";
         try {

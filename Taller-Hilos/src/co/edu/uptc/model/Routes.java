@@ -2,49 +2,47 @@ package co.edu.uptc.model;
 
 public class Routes {
 
-	private String route;
-	private int distance;
-	private long value;
-	
-	public Routes(String route, int distance, long value) {
-		super();
-		this.route = route;
-		this.distance = distance;
-		this.value = value;
-	}
-	
-	public Routes() {
-		
-	}
+	private String target;
+    private int distance;
+    private long value;
 
-	public String getRoute() {
-		return route;
-	}
+    public Routes(String target, int distance, long value) {
+        this.target = target;
+        this.distance = distance;
+        this.value = value;
+    }
 
-	public void setRoute(String route) {
-		this.route = route;
-	}
+    public Routes() {
+    }
 
-	public int getDistance() {
-		return distance;
-	}
+    public String getTarget() {
+        return target;
+    }
 
-	public void setDistance(int distance) {
-		this.distance = distance;
-	}
+    public void setTarget(String target) {
+        this.target = target;
+    }
 
-	public long getValue() {
-		return value;
-	}
+    public int getDistance() {
+        return distance;
+    }
 
-	public void setValue(long value) {
-		this.value = value;
-	}
+    public void setDistance(int distance) {
+        this.distance = distance;
+    }
 
-	@Override
-	public String toString() {
-		return "Routes [route=" + route + ", distance=" + distance + ", value=" + value + "]";
-	}
+    public long getValue() {
+        return value;
+    }
+
+    public void setValue(long value) {
+        this.value = value;
+    }
+
+    @Override
+    public String toString() {
+        return "target{" + "target=" + target + ", distance=" + distance + ", value=" + value + '}';
+    }
 	
 	
 	

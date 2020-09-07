@@ -4,12 +4,18 @@
         {
             "target":"Chile",
             "distance":8000,
-            "value":1800000
+            "value":3500000
         },
         {
             "target":"Lima",
             "distance":100008,
             "value":10000000
+        },
+        
+        {
+            "target":"Ecuador",
+            "distance":3000000,
+            "value":25000000
         }
      ]
 }
